@@ -1,0 +1,13 @@
+import os
+print(dir(os))
+print(os.getcwd())
+os.chdir("C://")
+print(os.getcwd())
+f= open("does.txt")
+print(os.listdir("C://"))
+os.makedirs("This/that")
+os.rename("does.txt","HEllo.txt")
+print(os.environ.get('Path'))
+print(os.path.join("C://","HELLO..txt"))
+print(os.path.isfile("C://OOPs in python"))
+print(os.path.exists("C//output"))
